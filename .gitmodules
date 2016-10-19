@@ -1,0 +1,42 @@
+[submodule "deliteful"]
+	path = deliteful
+	url = https://github.com/brunano21/deliteful
+[submodule "delite"]
+	path = delite
+	url = https://github.com/brunano21/delite
+[submodule "dcl"]
+	path = dcl
+	url = https://github.com/uhop/dcl
+[submodule "decor"]
+	path = decor
+	url = https://github.com/ibm-js/decor
+[submodule "dpointer"]
+	path = dpointer
+	url = https://github.com/ibm-js/dpointer
+[submodule "jquery"]
+	path = jquery
+	url = https://github.com/jquery/jquery
+[submodule "requirejs"]
+	path = requirejs
+	url = https://github.com/requirejs/requirejs
+[submodule "requirejs-domready"]
+	path = requirejs-domready
+	url = https://github.com/requirejs/domReady
+[submodule "requirejs-dplugins"]
+	path = requirejs-dplugins
+	url = https://github.com/ibm-js/requirejs-dplugins
+[submodule "requirejs-text"]
+	path = requirejs-text
+	url = https://github.com/requirejs/text
+[submodule "dojo"]
+	path = dojo
+	url = https://github.com/dojo/dojo
+[submodule "dstore"]
+	path = dstore
+	url = https://github.com/SitePen/dstore
+[submodule "dijit"]
+	path = dijit
+	url = https://github.com/dojo/dijit
+[submodule "webcomponentsjs"]
+	path = webcomponentsjs
+	url = https://github.com/webcomponents/webcomponentsjs
