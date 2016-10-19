@@ -40,3 +40,6 @@
 [submodule "webcomponentsjs"]
 	path = webcomponentsjs
 	url = https://github.com/webcomponents/webcomponentsjs
+[submodule "ecma402"]
+	path = ecma402
+	url = https://github.com/ibm-js/ecma402
