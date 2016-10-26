@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<title>Combobox</title>
+
+	<link rel="stylesheet" href="../../delite/themes/defaultapp.css">
+
+	<script type="text/javascript" src="../../requirejs/require.js"></script>
+
+	<script type="text/javascript">
+		require.config({
+			baseUrl: "../.."
+		});
+	</script>
+
+	<script type="text/javascript">
+		require([
+			"deliteful/list/List",
+			"deliteful/Combobox",
+			"deliteful/Button",
+			"deliteful/RadioButton",
+			"deliteful/Checkbox",
+			"delite/theme!delite/themes/{{theme}}/global.css",	// page level CSS
+			"requirejs-domready/domReady!"
+		], function (List) {
+
+
+			document.body.style.display = "";
+		});
+	</script>
+
+	<style>
+	html {
+		margin: 5px;
+	}
+	</style>
+</head>
+<body style="display: none" role="application" aria-label="Combobox with empty value">
+
+<br/>
+<p>
+<label for="comboTeams1-input">Your favorite team:</label>
+</p>
+<d-combobox selectionMode="single" autoFilter="true" id="comboTeams1">
+	<d-list>
+		{ "label": "France"},
+		{ "label": "Germany"},
+		{ "label": "Spain"},
+		{ "label": "Italy"},
+		{ "label": "England"},
+		{ "label": "USA"},
+		{ "label": "Canada"},
+		{ "label": "Brazil"},
+		{ "label": "Argentina"},
+		{ "label": "Uruguay"},
+		{ "label": "China"},
+		{ "label": "Japan"}
+	</d-list>
+</d-combobox>
+
+<br/>
+<p>
+<label for="comboTeams2-input">Your favorite team:</label>
+<br/> NB: First element has an empty value.
+</p>
+<d-combobox selectionMode="single" autoFilter="true" id="comboTeams2">
+	<d-list>
+		{ "label": ""},
+		{ "label": "France"},
+		{ "label": "Germany"},
+		{ "label": "Spain"},
+		{ "label": "Italy"},
+		{ "label": "England"},
+		{ "label": "USA"},
+		{ "label": "Canada"},
+		{ "label": "Brazil"},
+		{ "label": "Argentina"},
+		{ "label": "Uruguay"},
+		{ "label": "China"},
+		{ "label": "Japan"}
+	</d-list>
+</d-combobox>
+
+
+</body>
+</html>
